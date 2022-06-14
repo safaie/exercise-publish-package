@@ -10,7 +10,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: my-container-image
   OWNER: safaie
-  TAG: $(date +%s)
+  TAG: latest
   
 jobs:
   build-and-push-image:
